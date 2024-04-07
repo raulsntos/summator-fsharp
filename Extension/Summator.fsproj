@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Godot.Bindings" Version="4.3.0-nightly.24204.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Summator.fs" />
+    <Compile Include="Library.fs" />
+  </ItemGroup>
+</Project>
